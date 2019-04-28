@@ -90,6 +90,7 @@ public class JEvent extends javax.swing.JFrame {
 
         ta_deskripsi.setColumns(20);
         ta_deskripsi.setRows(5);
+        ta_deskripsi.setWrapStyleWord(true);
         jScrollPane1.setViewportView(ta_deskripsi);
         ta_deskripsi.getAccessibleContext().setAccessibleName("tf_deskripsi");
 
